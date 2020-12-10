@@ -1,0 +1,151 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    width:100%;
+    height:100%;
+   
+}
+/*header css*/
+.header{
+    background-color:black;
+    width:100%;
+    height:40px;
+}
+.header ul{
+    list-style: none;;
+}
+.header ul a{
+    color:silver;
+    text-decoration: none;
+}
+.header ul a li{
+    margin-right:40px;
+   margin-top:10px;
+}
+.header ul a:nth-child(1)
+{ 
+      margin-left:50px;
+    margin-right:0; 
+   
+    float:left;
+}
+.header ul a:nth-child(2)
+{
+    float:right;
+}
+.header ul a:nth-child(3)
+{
+    float:right;
+}
+/*cantainer css*/
+.cantainer{
+    position: absolute;
+    top:-147px;
+    width:100%;
+    height:900px;
+    z-index:-1;
+}
+/*banner css*/
+.bannerimage{
+    width:100%;
+    height:100%;
+background-image:url("intro-bg_1.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+}
+/*content*/
+.content{
+    position: absolute;
+    top:56%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:40%;
+    height:40%;
+   background-color:rgba(0,0,0,0.5);
+}
+.content h1,h4{
+    position: relative;
+    padding:3px;
+    top:25%;
+    color:white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.content h1{
+    font-weight: 300;
+    font-size:50px;
+    opacity:.9;
+}
+.content h4{
+    font-weight: 100;
+    font-size:15px;
+    opacity:.7;
+}
+button{
+    position: absolute;
+    top:70%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color:#c9302c;
+    border-radius:6px;
+    color:white;
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125); 
+    width:130px;
+    height:50px;
+    border:2px solid #ac2925;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:16px;
+}
+.category{
+    text-align: center;
+    width:70%;
+    height:30%;
+    padding:40px 0px 40px 200px;
+}
+.category ul li{
+    width:30%;
+    height:40%;
+    float:right;
+    list-style: none;
+    padding:3px;
+    border:1px solid grey;
+    margin:0px 13px;
+}
+.category ul li a{
+    text-decoration: none;
+}
+.category ul li a h3,p{
+    text-align: center;
+    color:rgba(0,0,0,0.7);
+    font-family: Arial, Helvetica, sans-serif;
+    padding:5px;
+}
+.category ul li a h3{
+    font-weight:700;
+    font-size:25px;
+}
+.category ul li a p{
+    font-weight:500;
+    font-size:13.5px;
+    font-weight:bold;
+}
+.category ul li a img{
+    width:100%;
+    height:100%;
+    padding-bottom:10px;
+}
+
+.footer{
+    width:100%;
+    height:6%;
+    background-color: black;  
+}
+.footer p{
+     padding:1%;
+    color:grey;
+    text-align: center;
+    font-weight: bold;
+}

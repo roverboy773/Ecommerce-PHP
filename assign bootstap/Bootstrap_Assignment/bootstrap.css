@@ -1,0 +1,14 @@
+#banner-image{
+    position: relative;
+    top:-20px;
+    background-image:url(intro-bg_1.jpg);
+    background-repeat: no-repeat center;
+    background-size: cover;
+    text-align:center;
+    padding:0;
+    margin:0;
+}
+.jumbotron{
+    background-color:rgba(0,0,0,0.8);
+    color:#f8f8f8;  
+}
